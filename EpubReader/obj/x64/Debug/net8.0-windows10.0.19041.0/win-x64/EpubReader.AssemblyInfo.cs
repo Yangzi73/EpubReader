@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EpubReader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3191e0977f7e5a9d5a41d6fb1cd2c4d0f8dce440")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c83e8d9684b6f87f0614d68762c9ec5096f0bca1")]
 [assembly: System.Reflection.AssemblyProductAttribute("EpubReader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EpubReader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
