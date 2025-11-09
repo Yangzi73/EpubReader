@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Yang\Desktop\Coding\WINUI3\EpubReader\EpubReader\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-11-09T17:06:05.583</Modified>
+      <Modified>2025-11-09T17:49:16.303</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -39,11 +39,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yang\Desktop\Coding\WINUI3\EpubReader\EpubReader\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>EpubReader.exe</PackagePath>
-      <Modified>2025-11-09T17:06:05.360</Modified>
+      <Modified>2025-11-09T17:49:16.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yang\Desktop\Coding\WINUI3\EpubReader\EpubReader\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\EpubReader.dll">
       <PackagePath>EpubReader.dll</PackagePath>
-      <Modified>2025-11-09T17:06:05.358</Modified>
+      <Modified>2025-11-09T17:49:16.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yang\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.21\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -927,7 +927,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yang\Desktop\Coding\WINUI3\EpubReader\EpubReader\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\EpubReader.deps.json">
       <PackagePath>EpubReader.deps.json</PackagePath>
-      <Modified>2025-11-09T17:05:34.063</Modified>
+      <Modified>2025-11-09T17:32:39.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yang\Desktop\Coding\WINUI3\EpubReader\EpubReader\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -963,7 +963,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yang\Desktop\Coding\WINUI3\EpubReader\EpubReader\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-11-09T17:06:05.428</Modified>
+      <Modified>2025-11-09T17:49:16.126</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

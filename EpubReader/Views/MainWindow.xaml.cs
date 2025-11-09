@@ -25,7 +25,39 @@ namespace EpubReader
     {
         public MainWindow()
         {
-            InitializeComponent();
+            //初始化WinUI组件
+            this.InitializeComponent();
+
+            //隐藏默认的标题栏
+            this.ExtendsContentIntoTitleBar = true;
+
+            //设置标题栏
+            this.SetTitleBar(TitleBar);
+        }
+
+        private void ToggleChapterList(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ToggleFullScreen(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpenFile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ChapterList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

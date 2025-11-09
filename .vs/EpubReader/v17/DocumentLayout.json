@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{13234F55-385B-4CFE-99B2-AE91088C7E72}|EpubReader\\EpubReader.csproj|c:\\users\\yang\\desktop\\coding\\winui3\\epubreader\\epubreader\\services\\epubservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13234F55-385B-4CFE-99B2-AE91088C7E72}|EpubReader\\EpubReader.csproj|solutionrelative:epubreader\\services\\epubservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13234F55-385B-4CFE-99B2-AE91088C7E72}|EpubReader\\EpubReader.csproj|c:\\users\\yang\\desktop\\coding\\winui3\\epubreader\\epubreader\\models\\epubbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13234F55-385B-4CFE-99B2-AE91088C7E72}|EpubReader\\EpubReader.csproj|solutionrelative:epubreader\\models\\epubbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13234F55-385B-4CFE-99B2-AE91088C7E72}|EpubReader\\EpubReader.csproj|c:\\users\\yang\\desktop\\coding\\winui3\\epubreader\\epubreader\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{13234F55-385B-4CFE-99B2-AE91088C7E72}|EpubReader\\EpubReader.csproj|solutionrelative:epubreader\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -18,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "EpubReader\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "EpubReader\\Views\\MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-09T17:05:45.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "EpubReader\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "EpubReader\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T17:03:49.626Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -61,6 +43,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EpubServices.cs",
+              "DocumentMoniker": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Services\\EpubServices.cs",
+              "RelativeDocumentMoniker": "EpubReader\\Services\\EpubServices.cs",
+              "ToolTip": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Services\\EpubServices.cs",
+              "RelativeToolTip": "EpubReader\\Services\\EpubServices.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:29:41.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EpubBook.cs",
+              "DocumentMoniker": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Models\\EpubBook.cs",
+              "RelativeDocumentMoniker": "EpubReader\\Models\\EpubBook.cs",
+              "ToolTip": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Models\\EpubBook.cs",
+              "RelativeToolTip": "EpubReader\\Models\\EpubBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:29:26.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EpubReader\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "EpubReader\\Views\\MainWindow.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-09T17:05:45.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EpubReader\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Yang\\Desktop\\Coding\\WINUI3\\EpubReader\\EpubReader\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EpubReader\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:03:49.626Z",
+              "EditorCaption": ""
             }
           ]
         }

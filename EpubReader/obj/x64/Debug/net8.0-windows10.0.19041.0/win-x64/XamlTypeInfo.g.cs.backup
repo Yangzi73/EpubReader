@@ -226,7 +226,7 @@ namespace EpubReader.EpubReader_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[26];
+            _typeNameTable = new string[31];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -248,13 +248,18 @@ namespace EpubReader.EpubReader_XamlTypeInfo
             _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.IconSource";
             _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.TitleBarTemplateSettings";
             _typeNameTable[20] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[21] = "EpubReader.MainWindow";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[24] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[25] = "Int32";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.MenuBar";
+            _typeNameTable[22] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.MenuBarItem";
+            _typeNameTable[24] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase";
+            _typeNameTable[26] = "EpubReader.MainWindow";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[29] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[30] = "Int32";
 
-            _typeTable = new global::System.Type[26];
+            _typeTable = new global::System.Type[31];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -276,11 +281,16 @@ namespace EpubReader.EpubReader_XamlTypeInfo
             _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
             _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.TitleBarTemplateSettings);
             _typeTable[20] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[21] = typeof(global::EpubReader.MainWindow);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[24] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[25] = typeof(global::System.Int32);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.MenuBar);
+            _typeTable[22] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuBarItem>);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.MenuBarItem);
+            _typeTable[24] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase);
+            _typeTable[26] = typeof(global::EpubReader.MainWindow);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[29] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[30] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -320,8 +330,10 @@ namespace EpubReader.EpubReader_XamlTypeInfo
         private object Activate_9_WebView2() { return new global::Microsoft.UI.Xaml.Controls.WebView2(); }
         private object Activate_14_TitleBar() { return new global::Microsoft.UI.Xaml.Controls.TitleBar(); }
         private object Activate_19_TitleBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.TitleBarTemplateSettings(); }
-        private object Activate_21_MainWindow() { return new global::EpubReader.MainWindow(); }
-        private object Activate_23_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_21_MenuBar() { return new global::Microsoft.UI.Xaml.Controls.MenuBar(); }
+        private object Activate_23_MenuBarItem() { return new global::Microsoft.UI.Xaml.Controls.MenuBarItem(); }
+        private object Activate_26_MainWindow() { return new global::EpubReader.MainWindow(); }
+        private object Activate_28_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_MicaBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.MicaBackdrop).TypeHandle);
         private void StaticInitializer_6_MicaKind() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind).TypeHandle);
@@ -333,9 +345,13 @@ namespace EpubReader.EpubReader_XamlTypeInfo
         private void StaticInitializer_13_Uri() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Uri).TypeHandle);
         private void StaticInitializer_14_TitleBar() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TitleBar).TypeHandle);
         private void StaticInitializer_19_TitleBarTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TitleBarTemplateSettings).TypeHandle);
-        private void StaticInitializer_21_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::EpubReader.MainWindow).TypeHandle);
-        private void StaticInitializer_23_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_24_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_21_MenuBar() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.MenuBar).TypeHandle);
+        private void StaticInitializer_22_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuBarItem>).TypeHandle);
+        private void StaticInitializer_23_MenuBarItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.MenuBarItem).TypeHandle);
+        private void StaticInitializer_24_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>).TypeHandle);
+        private void StaticInitializer_26_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::EpubReader.MainWindow).TypeHandle);
+        private void StaticInitializer_28_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_29_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -343,7 +359,19 @@ namespace EpubReader.EpubReader_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
+        private void VectorAdd_22_IList(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.MenuBarItem>)instance;
+            var newItem = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)item;
+            collection.Add(newItem);
+        }
         private void VectorAdd_24_IList(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>)instance;
+            var newItem = (global::Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_29_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -495,22 +523,61 @@ namespace EpubReader.EpubReader_XamlTypeInfo
                 xamlType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  EpubReader.MainWindow
+            case 21:   //  Microsoft.UI.Xaml.Controls.MenuBar
+                userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_21_MenuBar;
+                userType.StaticInitializer = StaticInitializer_21_MenuBar;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.MenuBar.Items");
+                userType.AddMemberName("Items");
+                xamlType = userType;
+                break;
+
+            case 22:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>
+                userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_22_IList;
+                userType.CollectionAdd = VectorAdd_22_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 23:   //  Microsoft.UI.Xaml.Controls.MenuBarItem
+                userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_23_MenuBarItem;
+                userType.StaticInitializer = StaticInitializer_23_MenuBarItem;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.MenuBarItem.Items");
+                userType.AddMemberName("Items");
+                userType.AddMemberName("Title");
+                xamlType = userType;
+                break;
+
+            case 24:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>
+                userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_24_IList;
+                userType.CollectionAdd = VectorAdd_24_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 25:   //  Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase
+                xamlType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  EpubReader.MainWindow
                 userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_21_MainWindow;
-                userType.StaticInitializer = StaticInitializer_21_MainWindow;
+                userType.Activator = Activate_26_MainWindow;
+                userType.StaticInitializer = StaticInitializer_26_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Window
+            case 27:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 28:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_23_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_23_TreeViewNode;
+                userType.Activator = Activate_28_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_28_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -522,15 +589,15 @@ namespace EpubReader.EpubReader_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 24:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 29:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_24_IList;
-                userType.CollectionAdd = VectorAdd_24_IList;
+                userType.StaticInitializer = StaticInitializer_29_IList;
+                userType.CollectionAdd = VectorAdd_29_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 25:   //  Int32
+            case 30:   //  Int32
                 xamlType = new global::EpubReader.EpubReader_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -752,52 +819,72 @@ namespace EpubReader.EpubReader_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
             return that.TemplateSettings;
         }
-        private object get_17_TreeViewNode_Children(object instance)
+        private object get_17_MenuBar_Items(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.MenuBar)instance;
+            return that.Items;
+        }
+        private object get_18_MenuBarItem_Items(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)instance;
+            return that.Items;
+        }
+        private object get_19_MenuBarItem_Title(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)instance;
+            return that.Title;
+        }
+        private void set_19_MenuBarItem_Title(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.MenuBarItem)instance;
+            that.Title = (global::System.String)Value;
+        }
+        private object get_20_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_18_TreeViewNode_Content(object instance)
+        private object get_21_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_18_TreeViewNode_Content(object instance, object Value)
+        private void set_21_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_19_TreeViewNode_Depth(object instance)
+        private object get_22_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_20_TreeViewNode_HasChildren(object instance)
+        private object get_23_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_21_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_24_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_21_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_24_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_22_TreeViewNode_IsExpanded(object instance)
+        private object get_25_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_22_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_25_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_23_TreeViewNode_Parent(object instance)
+        private object get_26_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -928,50 +1015,71 @@ namespace EpubReader.EpubReader_XamlTypeInfo
                 xamlMember.Getter = get_16_TitleBar_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "Microsoft.UI.Xaml.Controls.MenuBar.Items":
+                userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuBar");
+                xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuBarItem>");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_MenuBar_Items;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.MenuBarItem.Items":
+                userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuBarItem");
+                xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.MenuFlyoutItemBase>");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_MenuBarItem_Items;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.MenuBarItem.Title":
+                userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuBarItem");
+                xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Title", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_MenuBarItem_Title;
+                xamlMember.Setter = set_19_MenuBarItem_Title;
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_17_TreeViewNode_Children;
+                xamlMember.Getter = get_20_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_TreeViewNode_Content;
-                xamlMember.Setter = set_18_TreeViewNode_Content;
+                xamlMember.Getter = get_21_TreeViewNode_Content;
+                xamlMember.Setter = set_21_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_TreeViewNode_Depth;
+                xamlMember.Getter = get_22_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_23_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_21_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_21_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_24_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_24_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_22_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_25_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_25_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::EpubReader.EpubReader_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EpubReader.EpubReader_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_23_TreeViewNode_Parent;
+                xamlMember.Getter = get_26_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

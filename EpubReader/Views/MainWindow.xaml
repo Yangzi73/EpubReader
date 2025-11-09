@@ -10,10 +10,58 @@
     mc:Ignorable="d">
 
     <Window.SystemBackdrop>
-        <MicaBackdrop />
+        <MicaBackdrop Kind="Base" />
     </Window.SystemBackdrop>
 
-    <Grid>
-        <TextBox x:Name="textBox" />
+    <Grid MinWidth="300" MinHeight="200">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!--  菜单  -->
+            <RowDefinition Height="*" />
+            <!--  阅读区域  -->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <!--  目录栏  -->
+            <ColumnDefinition Width="*" />
+            <!--  阅读栏  -->
+        </Grid.ColumnDefinitions>
+
+
+
+        <!--  左侧目录  -->
+        <ListView x:Name="ChapterList" SelectionChanged="ChapterList_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!--  右侧阅读区域  -->
+        <WebView2 x:Name="ReadingView" Grid.Column="1" />
+
+        <!--  标题栏  -->
+        <TitleBar
+            x:Name="TitleBar"
+            Title="EpubReader"
+            IsBackButtonVisible="False"
+            IsPaneToggleButtonVisible="True"
+            Subtitle="">
+
+            <!--(搜索框) TitleBar.Content>
+                <AutoSuggestBox
+                    Width="200"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    PlaceholderText="Search.."
+                    QueryIcon="Find" />
+            </TitleBar.Content-->
+            <TitleBar.IconSource>
+                <FontIconSource Glyph="&#xE8F1;" />
+            </TitleBar.IconSource>
+        </TitleBar>
+
     </Grid>
 </Window>
